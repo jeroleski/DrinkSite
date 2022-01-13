@@ -1,9 +1,9 @@
-namespace Infrastructure;
+namespace DrinkSite.Infrastructure;
 
 public class Use
 {
-    public int id { get; set; }
-    public Ingredient? ingredient { get; set; }
-    public int amount { get; set; }
-    public Messurement messurement { get; set; }
+    public int Id { get; set; }
+    public Ingredient? Ingredient { get; set; }
+    public int Amount { get; set; }
+    public Messurement Messurement { get; set; }
 }

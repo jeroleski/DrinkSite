@@ -1,7 +1,7 @@
-namespace Infrastructure;
+namespace DrinkSite.Infrastructure;
 
 public class Liquer : Spirit
 {
     [StringLength(50)]
-    public string? type { get; set; }
+    public string? Type { get; set; }
 }

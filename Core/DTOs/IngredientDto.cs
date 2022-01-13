@@ -1,4 +1,4 @@
-namespace Core;
+namespace DrinkSite.Core;
 
-public record IngredientCreateDto([Required, StringLength(50)] string name);
-public record IngredientDto(int id, [Required, StringLength(50)] string name) : IngredientCreateDto(name);
+public record IngredientCreateDto([Required, StringLength(50)] string Name);
+public record IngredientDto(int Id, [Required, StringLength(50)] string Name) : IngredientCreateDto(Name);

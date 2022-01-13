@@ -1,6 +1,6 @@
-namespace Infrastructure;
+namespace DrinkSite.Infrastructure;
 
 public class Mixer : Ingredient
 {
-    public bool carbonated { get; set; }
+    public bool Carbonated { get; set; }
 }

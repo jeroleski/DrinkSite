@@ -1,10 +1,10 @@
-namespace Infrastructure;
+namespace DrinkSite.Infrastructure;
 
 public abstract class Spirit : Ingredient
 {
     [Range(0, 100)]
-    public double volume { get; set; }
+    public double Volume { get; set; }
 
     [StringLength(50)]
-    public string? brand { get; set; }
+    public string? Brand { get; set; }
 }

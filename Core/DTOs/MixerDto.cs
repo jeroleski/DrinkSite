@@ -1,3 +1,3 @@
-namespace Core;
+namespace DrinkSite.Core;
 
-public record MixerDto(bool carbonated);
+public record MixerDto(bool Carbonated);

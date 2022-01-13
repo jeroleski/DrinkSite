@@ -1,4 +1,4 @@
-namespace Core;
+namespace DrinkSite.Core;
 
-public record UseCreateDto(IngredientDto ingredient, int amount, Messurement messurement);
-public record UseDto(int id, IngredientDto ingredient, int amount, Messurement messurement) : UseCreateDto(ingredient, amount, messurement);
+public record UseCreateDto(IngredientDto Ingredient, int Amount, Messurement Messurement);
+public record UseDto(int Id, IngredientDto Ingredient, int Amount, Messurement Messurement) : UseCreateDto(Ingredient, Amount, Messurement);
