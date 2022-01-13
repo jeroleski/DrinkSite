@@ -3,6 +3,8 @@ namespace Infrastructure;
 public class Cocktail
 {
     public int id { get; set; }
+
+    [StringLength(50)]
     public string? name { get; set; }
 
     public Method method { get; set; }
