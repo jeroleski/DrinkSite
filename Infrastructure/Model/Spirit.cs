@@ -7,4 +7,6 @@ public abstract class Spirit : Ingredient
 
     [StringLength(50)]
     public string? Brand { get; set; }
+
+    public Spirit(string name) : base(name) {}
 }

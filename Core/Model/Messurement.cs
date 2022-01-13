@@ -6,4 +6,5 @@ public enum Messurement
     Ml,
     Dashes,
     Pieces,
+    Parts,
 }
