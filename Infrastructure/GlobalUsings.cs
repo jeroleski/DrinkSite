@@ -7,6 +7,4 @@ global using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 global using System.ComponentModel.DataAnnotations;
 
 global using DrinkSite.Core;
-global using static DrinkSite.Core.Messurement;
-global using static DrinkSite.Core.Method;
-global using static DrinkSite.Core.Glass;
+global using static DrinkSite.Core.Status;

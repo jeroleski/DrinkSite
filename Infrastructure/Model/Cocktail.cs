@@ -10,5 +10,5 @@ public class Cocktail
     public Method Method { get; set; }
     public Glass Glass { get; set; }
     public ICollection<Use> Uses { get; set; } = new HashSet<Use>();
-    public ICollection<Use> Garnish { get; set; } = new HashSet<Use>();
+    public Use? Garnish { get; set; }
 }
